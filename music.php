@@ -75,7 +75,7 @@
             ?>
     </div>
     <footer>
-        <p class="centre">&copy; 2025 Aki Lama Test.</p>
+        <p class="centre">&copy; 2025 Aki Lama .</p>
     </footer>
 </body>
 </html>
