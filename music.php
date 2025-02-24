@@ -5,15 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <title>Digital Media. Advanced Websites</title>
-</head>
-<body>
-    <header>
-        <figure>
-            <img src="images/lc-mint.png" width="100" alt="Learn Coach Logo.">
-        </figure>
-        <h1>Digital Media. Advanced Websites</h1>
-    </header>
-    <nav>
+    <?php
+        include_once('header.php')
+     ?> 
         <label for="navCheck"><i class="fas fa-bars"></i></label>
         <input type="checkbox" id="navCheck">         
         <div id="menuItems">
@@ -74,8 +68,8 @@
             echo '</section>';
             ?>
     </div>
-    <footer>
-        <p class="centre">&copy; 2025 Aki Lama .</p>
-    </footer>
+    <?php
+        include_once('footer.php')
+     ?>   
 </body>
 </html>
