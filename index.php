@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+        <meta charset="utf-8">
         <meta Aki="viewport" content=, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
-        <title>Beautiful Tonga</title>
+        <title></title>
 </head>
 <body>
 <?php

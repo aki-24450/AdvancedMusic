@@ -1,16 +1,23 @@
-<header>
-        <figure>
-            <img src="images/lc-mint.png" width="100" alt="Learn Coach Logo.">
-        </figure>
-        <h1>Central Header</h1>
-    </header>
-    <nav>
-        <label for="navCheck"><i class="fas fa-bars"></i></label>
-        <input type="checkbox" id="navCheck">         
-        <div id="menuItems">
-            <p><a href="index.php">Home</a></p>
-            <p><a href="music.php">Music</a></p>
-            <p><a href="addMusic.php">Add Music</a></p>
-            <p><a href="addArtist.php">Add Artist</a></p>
-        </div>
-    </nav>
+<head>
+        <meta charset="utf-8">
+        <meta Aki="viewport" content=, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <title></title>
+</head>
+<body>
+<!--Made a change -->
+     <header>
+          <figure>
+            <img class="square" src="images/download (1).jpg" width="200">    
+          </figure>
+         <h1>Beautiful Tonga</h1>
+      </header>
+      <nav>
+           <!-- site wide navigation bar -->
+           <p><a href="index.html"> Home</a></p>                              
+           <p><a href= "page2.html">Tongan Food</a></p>
+           <p><a href="page3.html">Details</a></p>
+      </nav>
+      <div role="main" class="main">
+          <!-- Main Page Content -->
+          
