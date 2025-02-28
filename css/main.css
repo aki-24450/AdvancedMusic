@@ -7,14 +7,14 @@ body {
     margin-left: 10%; /* Remove all body margins */
     font-size: 120%;
   }
-  header{
+header{
     display: flex;
     align-items:center;
-    background: white;   
+    background: rgb(130, 38, 38);   
 }
 header h1 {
     font-family: "Shadows Into Light", cursive;
-    font-size: 300%;
+    font-size: 400%;
     font-weight: lighter;
     color: red;
 }
@@ -36,7 +36,7 @@ img {
 header {
     display: flex;
     align-items: center;
-    background-color: #8CE2D0;
+    background-color:white;
 }
 header img{
     max-width: 100%;

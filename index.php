@@ -7,9 +7,15 @@
         <title></title>
 </head>
 <body>
-<?php
-        include_once('header.php')
-     ?> 
+<header>
+          <figure>
+            <img class="square" src="images/TonganFlag.jpg" width="200">    
+          </figure>
+         <h1>Beautiful Tonga</h1>
+      </header>
+    <?php
+            include_once('header.php')
+    ?> 
     <div class="main" role="main">
         <h1>Instructions page</h1>
         <p>Welcome to the Advanced Websites Course’s example website.</p>
