@@ -3,32 +3,12 @@
 
 /* Element Rules */
 body {
-    font-family: "McLaren", sans-serif;
-    margin-left: 10%; /* Remove all body margins */
-    font-size: 120%;
-  }
-header{
-    display: flex;
-    align-items:center;
-    background: rgb(130, 38, 38);   
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
 }
-header h1 {
-    font-family: "Shadows Into Light", cursive;
-    font-size: 400%;
-    font-weight: lighter;
-    color: red;
-}
-nav {
-    background-color:#0a85d8;
-    border-top: solid black 1px;
-    border-bottom: solid black 1px;
-    display: flex; /*Display the children of this element as flexible boxes*/ 
-    align-items: center; /* Align child flexible boxes in the vertical center*/
-}
-nav p {
-    text-align: center;
-    flex-basis: 100px; /* Give each paragraph the same basic width */
-    flex-grow: 1; /* Allow each paragraph to grow evenly to fill up the parent nav element */
+h1, h2 { 
+    font-family: 'McLaren', cursive; 
+    color: #280071;
 }
 img {
     max-width: 75vw;
@@ -36,7 +16,7 @@ img {
 header {
     display: flex;
     align-items: center;
-    background-color:white;
+    background-color: #a48ce2;
 }
 header img{
     max-width: 100%;

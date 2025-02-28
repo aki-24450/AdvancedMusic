@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8">
-        <meta Aki="viewport" content=, initial-scale=1.0">
-        <link rel="stylesheet" href="css/main.css">
-        <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Digital Media. Advanced Websites</title>
 </head>
 <body>
-<header>
-          <figure>
-            <img class="square" src="images/TonganFlag.jpg" width="200">    
-          </figure>
-         <h1>Beautiful Tonga</h1>
-      </header>
     <?php
             include_once('header.php')
     ?> 
+    <nav>
+        <label for="navCheck"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="navCheck">         
+        <div id="menuItems">
+            <p><a href="index.php">Home</a></p>
+            <p><a href="music.php">Music</a></p>
+            <p><a href="addMusic.php">Add Music</a></p>
+        </div>
+    </nav>
     <div class="main" role="main">
         <h1>Instructions page</h1>
         <p>Welcome to the Advanced Websites Course’s example website.</p>
@@ -56,8 +59,8 @@
             <li><a href="https://advancedwebsitedemo.learncoach.com/files/advancedmusic.sql">Site Template.</a></li>
         </ul>
     </div>
-    <?php
-        include_once('footer.php')
-     ?>   
+    <footer>
+        <p class="centre">&copy; 2019 YourName.</p>
+    </footer>
 </body>
 </html>
