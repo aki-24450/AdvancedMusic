@@ -3,64 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Digital Media. Advanced Websites</title>
 </head>
 <body>
     <?php
             include_once('header.php')
     ?> 
-    <nav>
-        <label for="navCheck"><i class="fas fa-bars"></i></label>
-        <input type="checkbox" id="navCheck">         
-        <div id="menuItems">
-            <p><a href="index.php">Home</a></p>
-            <p><a href="music.php">Music</a></p>
-            <p><a href="addMusic.php">Add Music</a></p>
-        </div>
-    </nav>
-    <div class="main" role="main">
-        <h1>Instructions page</h1>
-        <p>Welcome to the Advanced Websites Course’s example website.</p>
-        <p>We’ll start this course roughly where you left off with the Intermediate Web Design course:</p>
-        <ul>
-            <li>A small music database.</li>
-            <li>A website that queries the database to display the music on screen.</li>
-            <li>A data entry form to enter data into the database.</li>
-        </ul>
-        <p>Rather than get you to create this content from scratch, we’ll provide it all for you so you can modify and change it as the course progressed.</p>
-        <p>When the lesson videos tell you, you’ll need to complete a bunch of steps. You should know how to complete most of these tasks, but if not, refer to the previous courses for more information.</p>
+      <div role="main" class="main">
+          <!-- Main Page Content -->
+        <h1>Welcome</h1>
+        <p>Welcome to the beautiful demostrations of the Tongan Cultures and Traditions.In this website,
+           it will express the Tongan Kingdom and  how a Tongan is proud to be a Tongan.</p>
+        <h1>But first,where is Tonga located?</h1><!-- This is a main heading -->
+         According to <a href="https://en.wikipedia.org/wiki/Geography_of_Tonga" target="_blank">Wikipedia</a>, 
+         Tonga is one of the smallest island located in the South Pacific Ocean.It is the the only perfect island to not be colonised.
+         It has 169 islands and 36 of them are being inhabited,which are in  3 main groups Vava'u,Ha'apai and Tongatapu. 
+         Due to the spread out islands it has the 40th largest Exclusive Economic Zone of 659,558 km2 (254,657 sq mi).</p>
+         <figure class="center">
+              <img src="tongan map.png" width="400"
+              <figcaption></figcaption>
+         </figure>
+         <h2>Why are you proud of being a Tongan?</h2><!-- This is a sub heading-->
+         <p>Tonga is a very beautiful country and has a lot of culture and traditions.
+            The cultures of Tonga are very diverse and interesting.You are a proud Tongan if you are able to understand the cultures and the main values of being a Tongan.
+            You are being taught at a very young age by the good values of a proud Tongan.Therefore, a discipline of Respect must reflects from you.
+            You have to cultivate relationships which engages every Tongan relatioships.Humility is a unique weapon of a Tongan that shows tremendous respect.
+            Lastly,you have to be a very passion person in no matter what circumstances come ahead of you.
+            These 4 pillars are being taught to a Tongan at a very young age and only a true Tongan will be forever proud. </p>
 
-        <h2>Start up your web server</h2>
-        <p>As this course uses PHP and MySQL, you will need to be running a web server.</p> 
-        <ul>
-            <li>In the previous courses you used USBWebServer, so get that going!</li>
-            <li>Make sure Apache and MySQL are running.</li>
-        </ul>
-        <figure>
-            <img src="images/usbwebserver.png" alt="USB Web Server." width="500">
-        </figure>
-
-        <h2>Create a new database</h2>
-        <p>You’re going to need a database to store and query the data.</p>
-        <ul>
-            <li>In phpMyAdmin, create a new AdvancedMusic database. </li>
-            <li>Set the collation to utf8_general_ci.  </li>
-        </ul>
-        <figure>
-            <img src="images/adddatabase.png" alt="Adding a new database in phpMyAdmin.">
-        </figure>
-        <p>We’ll talk about what collations are as part of the course.</p>
-
-        <h2>Download the files</h2>
-        <p>You’ll need to download two files to begin this course. They contain the data for the database and the files for the website.</p>
-        <ul>
-            <li><a href="https://advancedwebsitedemo.learncoach.com/files/advancedtemplate.zip">Database tables and data.</a></li>
-            <li><a href="https://advancedwebsitedemo.learncoach.com/files/advancedmusic.sql">Site Template.</a></li>
-        </ul>
-    </div>
-    <footer>
-        <p class="centre">&copy; 2019 YourName.</p>
-    </footer>
+            <figure class="center">
+                 <img src="images/download (2).jpg"  width="400"
+                 <figcaption></figcaption>
+            </figure>
+            <h1>What is beautiful about the Kindom?</h1>      
+            <p>Beautiful beaches, turquoise waters and swaying coconut palms can be found in many places in the world, 
+                but only in Tonga can you experience the unique Tongan culture. While visiting the South Pacific's only kingdom, 
+                it would almost be a crime to miss out on experiencing the fascinating Tongan culture.It's a hotbed for humpback whales,
+                Tonga is a conservative Christian country and Tonga is famous for its blowholes.</p>      
+<figure class="center">
+     <img src="images/download (4).jpg"  width="400"
+     <figcaption></figcaption>                  
+</figure>
+<p></p>
+      </div>
+<!-- Bottom of each page -->
+      <footer>
+          <p class="center">&copy; 2024 Aki.</p>
+      </footer>
 </body>
-</html>
+</html> 
+

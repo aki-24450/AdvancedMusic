@@ -1,9 +1,65 @@
 <!--Made a change -->
+<style>
+/*I have moved the style.css and main.css into this folder where 
+I can combine and do all my styling,positioning,editing etc..*/
+     header {
+     display: flex;
+     align-items: center;
+     background-color:white;
+     }
+     header img{
+     max-width: 100%;
+     }
+     header figure{
+     max-width: 20%;
+     margin: 1em;
+     margin-left: 2em;
+     }
+     header h1 { 
+     font-family: 'https://fonts.google.com/specimen/Arsenal+SC',cursive;
+     font-size: 250%;
+     font-weight: lighter;
+     color: red;
+     }
+
+     nav {
+     display: flex;
+     /*background-color: #280071; */
+     background-color: blue;
+     border-top: solid black thin;
+     border-bottom: solid black thin;
+     }
+     nav p{
+     flex: 1 1 100px;
+     text-align: center;
+
+     }
+     nav a { 
+     text-decoration: none;
+     color: #fff;
+     font-weight: bold;
+     }
+     nav a:hover { 
+     text-decoration: none;
+     color: #e91e63;
+     font-weight: bold;
+     }
+     nav label{
+     display: none;
+     }
+</style>
 <header>
      <figure>
-          <img class="square" src="images/TonganFlag.jpg" width="200">    
+          <img class="square" src="images/TonganFlag.jpg" width="400">    
      </figure>
-     <h1>Beautiful Tonga ABC</h1>
+     <h1>Beautiful Tonga</h1>
 </header>
-
+<nav>
+           <!-- site wide navigation bar -->
+           <p><a href="index.html"> Home</a></p>                              
+           <p><a href= "page2.html">Tongan Dances</a></p>
+           <p><a href="page3.html">Details</a></p>
+      </nav>
+      <div role="main" class="main">
+          <!-- Main Page Content -->
           
