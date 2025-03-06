@@ -5,7 +5,7 @@ I can combine and do all my styling,positioning,editing etc..*/
      header {
      display: flex;
      align-items: center;
-     background-color:white;
+     background-color:red;
      }
      header img{
      max-width: 100%;
@@ -16,10 +16,10 @@ I can combine and do all my styling,positioning,editing etc..*/
      margin-left: 2em;
      }
      header h1 { 
-     font-family: 'https://fonts.google.com/specimen/Arsenal+SC',cursive;
+     font-family: 'https://fonts.google.com/specimen/Dancing+Script',cursive;
      font-size: 250%;
      font-weight: lighter;
-     color: red;
+     color:white;
      }
 
      nav {
@@ -50,14 +50,14 @@ I can combine and do all my styling,positioning,editing etc..*/
 </style>
 <header>
      <figure>
-          <img class="square" src="images/TonganFlag.jpg" width="400">    
+          <img class="square" src="images/TonganFlag.jpg" width="600">    
      </figure>
      <h1>Beautiful Tonga</h1>
 </header>
 <nav>
            <!-- site wide navigation bar -->
            <p><a href="index.html"> Home</a></p>                              
-           <p><a href= "page2.html">Tongan Dances</a></p>
+           <p><a href= "page2.html">Tongan Food</a></p>
            <p><a href="page3.html">Details</a></p>
       </nav>
       <div role="main" class="main">

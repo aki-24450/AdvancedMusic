@@ -42,14 +42,14 @@
                 it would almost be a crime to miss out on experiencing the fascinating Tongan culture.It's a hotbed for humpback whales,
                 Tonga is a conservative Christian country and Tonga is famous for its blowholes.</p>      
 <figure class="center">
-     <img src="images/download (4).jpg"  width="400"
+     <img src="tonganwharf.jpg"  width="400"
      <figcaption></figcaption>                  
 </figure>
 <p></p>
       </div>
 <!-- Bottom of each page -->
       <footer>
-          <p class="center">&copy; 2024 Aki.</p>
+          <p class="center">&copy; 2025 Aki.</p>
       </footer>
 </body>
 </html> 
