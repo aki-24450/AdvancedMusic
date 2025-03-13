@@ -16,7 +16,7 @@ I can combine and do all my styling,positioning,editing etc..*/
      margin-left: 2em;
      }
      header h1 { 
-     font-family: 'https://fonts.google.com/specimen/Dancing+Script',cursive;
+     font-family: 'https://fonts.google.com/specimen/Righteous';
      font-size: 250%;
      font-weight: lighter;
      color:white;
@@ -55,11 +55,11 @@ I can combine and do all my styling,positioning,editing etc..*/
      <h1>Beautiful Tonga</h1>
 </header>
 <nav>
-           <!-- site wide navigation bar -->
-           <p><a href="index.html"> Home</a></p>                              
-           <p><a href= "page2.html">Tongan Food</a></p>
-           <p><a href="page3.html">Details</a></p>
-      </nav>
-      <div role="main" class="main">
-          <!-- Main Page Content -->
+     <!-- site wide navigation bar -->
+     <p><a href="index.html"> Home</a></p>  
+     <p><a href= "music.php">Music</a></p>                            
+     <p><a href= "culture.php">Culture</a></p>
+     <p><a href="page3.html">Add </a></p>
+</nav>
+
           

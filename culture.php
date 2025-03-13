@@ -24,7 +24,7 @@
     </nav>
     <div class="main" role="main">
         <!-- Sort Form -->
-        <form id="sortForm" action="music.php" method="post">
+        <form id="sortForm" action="culture.php" method="post">
             <select name="sort" id="sort">
                 <option value="Artist_Name">Artist</option>
                 <option value="Genre">Genre</option>
@@ -38,18 +38,18 @@
 
             <!-- php to display songs -->
             <?php
-            require_once 'connect.php';
+            require_once 'myconnect.php';
 
             // Create the database query
-            $sql = "SELECT song.*, artist.*, price * 1.15 as 'gstPrice' FROM song, artist WHERE song.ArtistID = artist.ID";
+            $sql = "SELECT culture.* FROM culture";
 
             // Check if there is a sort order requested
-            if(isset($_REQUEST['sort'])){
-                $sql = $sql . " ORDER BY " . $_REQUEST['sort'];
-            } 
-            else {
-                $sql = $sql . " ORDER BY Title";
-            }
+            // if(isset($_REQUEST['sort'])){
+            //     $sql = $sql . " ORDER BY " . $_REQUEST['sort'];
+            // } 
+            // else {
+            //     $sql = $sql . " ORDER BY Title";
+            // }
 
             $result = $conn->query($sql);
 
@@ -59,14 +59,9 @@
                 while($row = $result->fetch_assoc()) {
                     echo '<article>';
 
-                        echo '<h2>' . $row["Title"] . '</h2>';
+                        echo '<h2>' . $row["Culture_Name"] . '</h2>';
                         echo '<figure class="centre"><img src="' . $row["Image"] . '" height="150" width="150"></figure>';
-                        echo '<p><span class="title">Artist: </span><span>' . $row["Artist_Name"] . '</span></p>';
-                        echo '<p><span class="title">Genre: </span><span>' . $row["Genre"] . '</span></p>';
-                        echo '<p><span class="title">Rating: </span><span>' . $row["Rating"] . '</span></p>';
-                        echo '<p><span class="title">Year Formed: </span><span>' . $row["year_formed"] . '</span></p>';
-                        echo '<p><span class="title">Origin: </span><span>' . $row["origin_country"] . '</span></p>';
-                        echo '<p><span class="title">Price: </span><span>$' . number_format((float)$row["gstPrice"], 2, '.', '') . '</span></p>';
+                        echo '<p><span class="title">Artist: </span><span>' . $row["Info"] . '</span></p>';
 
                     echo '</article>';
                 }

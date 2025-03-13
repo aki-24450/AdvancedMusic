@@ -11,6 +11,7 @@
             include_once('header.php')
     ?> 
       <div role="main" class="main">
+      <img src="images/Culture_dance.jpg"  width="400">
           <!-- Main Page Content -->
         <h1>Welcome</h1>
         <p>Welcome to the beautiful demostrations of the Tongan Cultures and Traditions.In this website,
@@ -21,7 +22,7 @@
          It has 169 islands and 36 of them are being inhabited,which are in  3 main groups Vava'u,Ha'apai and Tongatapu. 
          Due to the spread out islands it has the 40th largest Exclusive Economic Zone of 659,558 km2 (254,657 sq mi).</p>
          <figure class="center">
-              <img src="tongan map.png" width="400"
+              <img src="images/tongan_map.png" width="400">
               <figcaption></figcaption>
          </figure>
          <h2>Why are you proud of being a Tongan?</h2><!-- This is a sub heading-->
@@ -33,7 +34,7 @@
             These 4 pillars are being taught to a Tongan at a very young age and only a true Tongan will be forever proud. </p>
 
             <figure class="center">
-                 <img src="images/download (2).jpg"  width="400"
+                 <img src="images/proudtongan.jpg"  width="400">
                  <figcaption></figcaption>
             </figure>
             <h1>What is beautiful about the Kindom?</h1>      
@@ -42,7 +43,7 @@
                 it would almost be a crime to miss out on experiencing the fascinating Tongan culture.It's a hotbed for humpback whales,
                 Tonga is a conservative Christian country and Tonga is famous for its blowholes.</p>      
 <figure class="center">
-     <img src="tonganwharf.jpg"  width="400"
+     <img src="images/tonganwharf.jpg"  width="400"
      <figcaption></figcaption>                  
 </figure>
 <p></p>
