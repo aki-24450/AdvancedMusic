@@ -56,10 +56,9 @@ I can combine and do all my styling,positioning,editing etc..*/
 </header>
 <nav>
      <!-- site wide navigation bar -->
-     <p><a href="index.html"> Home</a></p>  
-     <p><a href= "music.php">Music</a></p>                            
+     <p><a href="index.html"> Home</a></p>                       
      <p><a href= "culture.php">Culture</a></p>
-     <p><a href="page3.html">Add </a></p>
+     <p><a href="addCulture.php">Add Culture</a></p>
 </nav>
 
           
