@@ -11,7 +11,6 @@
             include_once('header.php')
     ?> 
       <div role="main" class="main">
-      <img src="images/Culture_dance.jpg"  width="400">
           <!-- Main Page Content -->
         <h1>Welcome</h1>
         <p>Welcome to the beautiful demostrations of the Tongan Cultures and Traditions.In this website,
