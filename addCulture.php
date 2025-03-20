@@ -13,16 +13,12 @@
     <div class="main" role="main">
         <form class="addMusic" action="insertCulture.php" method="post" name="insert" onsubmit="return validateForm();">
             <fieldset id="fields">
-                <legend>New Song</legend>
+                <legend>New Item</legend>
                 <label for="titleText">New Cultural Item</label>
                 <input name="Culture_NameText" id="Culture_NameText" type="text">
 
                 <label>Image</label>
                 <input name="imageText" id="imageText" type="text">
-
-                <input name="genreText" id="genreText" type="text">
-                <label>Price</label>
-                <input name="priceText" id="priceText" type="number" step="any">
             </fieldset>
             <fieldset>
                 <input type="submit" value="Submit Item" class="button">
