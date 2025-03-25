@@ -19,6 +19,8 @@
 
                 <label>Image</label>
                 <input name="imageText" id="imageText" type="text">
+
+
             </fieldset>
             <fieldset>
                 <input type="submit" value="Submit Item" class="button">

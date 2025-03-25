@@ -58,7 +58,7 @@
             ?>
     </div>
     <footer>
-        <p class="centre">&copy; 2019 LearnCoach.</p>
+        <p class="centre">&copy; 2025 Aki.</p>
     </footer>
 </body>
 </html>
