@@ -20,6 +20,9 @@
                 <label>Image</label>
                 <input name="imageText" id="imageText" type="text">
 
+                <label>Info</label>
+                <input name="infotext" id="info text" type="text">
+
 
             </fieldset>
             <fieldset>
