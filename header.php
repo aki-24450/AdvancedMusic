@@ -5,7 +5,7 @@ I can combine and do all my styling,positioning,editing etc..*/
      header {
      display: flex;
      align-items: center;
-     background-color:red;
+     background-color: #13A698;
      }
      header img{
      max-width: 100%;
@@ -16,7 +16,7 @@ I can combine and do all my styling,positioning,editing etc..*/
      margin-left: 2em;
      }
      header h1 { 
-     font-family: 'https://fonts.google.com/specimen/Righteous';
+     font-family: 'https://fonts.google.com/specimen/Dancing+Script';
      font-size: 250%;
      font-weight: lighter;
      color:white;
@@ -25,7 +25,7 @@ I can combine and do all my styling,positioning,editing etc..*/
      nav {
      display: flex;
      /*background-color: #280071; */
-     background-color: blue;
+     background-color: #280071;
      border-top: solid black thin;
      border-bottom: solid black thin;
      }
@@ -50,13 +50,13 @@ I can combine and do all my styling,positioning,editing etc..*/
 </style>
 <header>
      <figure>
-          <img class="square" src="images/TonganFlag.jpg" width="600">    
+          <img class="square" src="images/Haamonga.jpg" width="950">    
      </figure>
-     <h1>Beautiful Tonga</h1>
+     <h1>Kindom of Tonga</h1>
 </header>
 <nav>
      <!-- site wide navigation bar -->
-     <p><a href="index.html"> Home</a></p>                       
+     <p><a href="index.php"> Home</a></p>                       
      <p><a href= "culture.php">Culture</a></p>
      <p><a href="addCulture.php">Add Culture</a></p>
 </nav>

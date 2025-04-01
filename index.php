@@ -14,7 +14,7 @@
           <!-- Main Page Content -->
         <h1>Welcome</h1>
         <p>Welcome to the beautiful demostrations of the Tongan Cultures and Traditions.In this website,
-           it will express the Tongan Kingdom and  how a Tongan is proud to be a Tongan.</p>
+           it will express the Tongan Kingdom and why a Tongan is proud to be a Tongan.</p>
         <h1>But first,where is Tonga located?</h1><!-- This is a main heading -->
          According to <a href="https://en.wikipedia.org/wiki/Geography_of_Tonga" target="_blank">Wikipedia</a>, 
          Tonga is one of the smallest island located in the South Pacific Ocean.It is the the only perfect island to not be colonised.

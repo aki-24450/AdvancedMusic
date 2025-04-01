@@ -13,7 +13,7 @@
     <div class="main" role="main">
         <form class="addMusic" action="insertCulture.php" method="post" name="insert" onsubmit="return validateForm();">
             <fieldset id="fields">
-                <legend>New Item</legend>
+                <legend>New Item Record</legend>
                 <label for="titleText">New Cultural Item</label>
                 <input name="Culture_NameText" id="Culture_NameText" type="text">
 

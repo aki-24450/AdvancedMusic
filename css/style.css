@@ -5,18 +5,18 @@
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
-    color:red;
+    color:#280071;
 }
 h1, h2 { 
     font-family: 'McLaren', cursive; 
-    color:red;
+    color:#280071;
 }
 img {
     max-width: 75vw;
 }
 
 footer {
-    background-color: blue;
+    background-color: #13A698;
     border-top: solid black thin;
     padding: 0.5em;
 }
