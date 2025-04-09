@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    
     <title>Digital Media. Advanced Websites</title>
 </head>
 <body>
@@ -43,18 +44,31 @@
 
             echo '<section id="musicList">';
 
+            // if ($result->num_rows > 0) {
+            //     while($row = $result->fetch_assoc()) {
+            //         echo '<article>';
+
+            //             echo '<h2>' . $row["Culture_Name"] . '</h2>';
+            //             echo '<figure class="centre"><img src="' . $row["Image"] . '" height="150" width="150"></figure>';
+            //             echo '<p><span class="title">Artist: </span><span>' . $row["Info"] . '</span></p>';
+
+            //         echo '</article>';
+            //     }
+            // }
+
             if ($result->num_rows > 0) {
+                echo '<div class="grid-container"';
                 while($row = $result->fetch_assoc()) {
-                    echo '<article>';
-
-                        echo '<h2>' . $row["Culture_Name"] . '</h2>';
-                        echo '<figure class="centre"><img src="' . $row["Image"] . '" height="150" width="150"></figure>';
-                        echo '<p><span class="title">Artist: </span><span>' . $row["Info"] . '</span></p>';
-
-                    echo '</article>';
+      
+                    echo '<div class="grid-item">';
+                    echo '<h2>' . $row["Culture_Name"] . '</h2>';
+                    echo '<img src="' . $row["Image"] . '" height="150" width="150">';
+                    
+                       
                 }
             }
-            echo '</section>';
+
+            echo '</div>';
             ?>
     </div>
     <footer>
