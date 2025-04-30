@@ -197,6 +197,22 @@ form .button:hover {
 }
 /***** END FORM STYLING ****/
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Two columns with equal width */
+    gap: 20px; /* Gap between grid items */   
+}
+/* Style for each grid items */
+.grid-item {
+border: 1px solid #ccc;
+padding: 20px;
+text-align: center;
+font-weight: bold;
+background-color: rgb(0, 255, 21);
+}
+.grid-item img{
+    height: 200px; /* Ensure the image takes up 70% of its container's height */
+}
 
 @media(max-width:640px){
     header h1 {

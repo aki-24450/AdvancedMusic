@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    
-    <title>Digital Media. Advanced Websites</title>
+    <link rel="stylesheet" href="css/mymain.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kingdom of Tonga</title>
 </head>
 <body>
-<?php
+    <?php
         include_once('header.php')
      ?> 
     <div class="main" role="main">
@@ -24,7 +24,6 @@
         </form>
 
         <h1>Cultural List</h1>
-
             <!-- php to display songs -->
             <?php
             require_once 'myconnect.php';
@@ -41,7 +40,6 @@
             // }
 
             $result = $conn->query($sql);
-
             echo '<section id="musicList">';
 
             // if ($result->num_rows > 0) {
@@ -55,9 +53,8 @@
             //         echo '</article>';
             //     }
             // }
-
+            echo '<div class="grid-container"';
             if ($result->num_rows > 0) {
-                echo '<div class="grid-container"';
                 while($row = $result->fetch_assoc()) {
       
                     echo '<div class="grid-item">';
