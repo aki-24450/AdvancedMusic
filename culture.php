@@ -53,18 +53,18 @@
             //         echo '</article>';
             //     }
             // }
-            echo '<div class="grid-container"';
+            echo '<div class="grid-container">';
             if ($result->num_rows > 0) {
                 while($row = $result->fetch_assoc()) {
       
                     echo '<div class="grid-item">';
                     echo '<h2>' . $row["Culture_Name"] . '</h2>';
                     echo '<img src="' . $row["Image"] . '" height="150" width="150">';
-                    
-                       
+                    echo '<p><span class="title">Info: </span><span>' . $row["Info"] . '</span></p>';
+                    echo '</div>';
+                      
                 }
             }
-
             echo '</div>';
             ?>
     </div>

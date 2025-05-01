@@ -1,7 +1,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; /* Two columns with equal width */
+    grid-template-columns: 1fr 1fr 1fr; /* Two columns with equal width */
     gap: 20px; /* Gap between grid items */   
 }
 /* Style for each grid items */
@@ -14,4 +14,36 @@ background-color: yellow;
 }
 .grid-item img{
     height: 200px; /* Ensure the image takes up 70% of its container's height */
+}
+/* Media query for screens smaller than 800 pixels */
+@media (max-width: 800px) 
+{
+    .grid-container 
+    {
+        grid-template-columns: 1fr 1fr; /* Change to a two -ms-grid-columns: ; */
+    }
+    body 
+    {
+      margin-left: 0; /* Remove all body margins */
+      font-size: 120%;  
+    }
+    header h1 
+    {
+        font-size: 100%;
+    }
+    header img {
+        width: 50%
+        
+    }
+}
+@media (max-width: 700px) 
+{
+    .grid-container 
+    {
+        grid-template-columns: 1fr ; /* Change to a single column */
+    }
+    .square 
+    {
+        width: 100px;
+    }
 }
