@@ -10,7 +10,7 @@ border: 1px solid #ccc;
 padding: 20px;
 text-align: center;
 font-weight: bold;
-background-color: yellow;
+background-color: greenyellow;
 }
 .grid-item img{
     height: 200px; /* Ensure the image takes up 70% of its container's height */
